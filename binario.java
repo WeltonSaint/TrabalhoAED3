@@ -104,6 +104,8 @@ public class binario
 				}		
 				System.out.println("Achei: "+comb.get(ind));
 			}
+			
+			arquivo.close();
 		}
 		catch(IOException ioe)
 		{
